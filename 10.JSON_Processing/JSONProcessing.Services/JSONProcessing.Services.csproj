@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A4B417B8-F76F-4AAB-886A-3AB9862EAEF0}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>JSONProcessing.Services</RootNamespace>
+    <AssemblyName>JSONProcessing.Services</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AutoMapper, Version=6.0.2.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005, processorArchitecture=MSIL">
+      <HintPath>..\packages\AutoMapper.6.0.2\lib\net45\AutoMapper.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+    <Reference Include="Ninject, Version=3.2.0.0, Culture=neutral, PublicKeyToken=c7192dc5380945e7, processorArchitecture=MSIL">
+      <HintPath>..\packages\Ninject.3.2.2.0\lib\net45-full\Ninject.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CarDealer\CarService.cs" />
+    <Compile Include="CarDealer\CustomerService.cs" />
+    <Compile Include="CarDealer\ICustomerService.cs" />
+    <Compile Include="CarDealer\IPartService.cs" />
+    <Compile Include="CarDealer\ISaleService.cs" />
+    <Compile Include="CarDealer\ICarService.cs" />
+    <Compile Include="CarDealer\ISupplierService.cs" />
+    <Compile Include="CarDealer\PartService.cs" />
+    <Compile Include="CarDealer\SaleService.cs" />
+    <Compile Include="CarDealer\SupplierService.cs" />
+    <Compile Include="NinjectCommon.cs" />
+    <Compile Include="ProductsShop\CategoryService.cs" />
+    <Compile Include="ProductsShop\ICategoryService.cs" />
+    <Compile Include="ProductsShop\IProductService.cs" />
+    <Compile Include="ProductsShop\IUserService.cs" />
+    <Compile Include="ProductsShop\ProductService.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ProductsShop\UserService.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\JSONProcessing.Common\JSONProcessing.Common.csproj">
+      <Project>{32fde00b-93d5-4242-a3d4-de1301b5d0f2}</Project>
+      <Name>JSONProcessing.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\JSONProcessing.Data.CarDealer\JSONProcessing.Data.CarDealer.csproj">
+      <Project>{BE38C87D-BF04-4242-8A30-3B8FF7B6F133}</Project>
+      <Name>JSONProcessing.Data.CarDealer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\JSONProcessing.Data\JSONProcessing.Data.ProductsShop.csproj">
+      <Project>{D3428804-71DC-480A-A919-DA6F9C0691F6}</Project>
+      <Name>JSONProcessing.Data.ProductsShop</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\JSONProcessing.Models\JSONProcessing.Models.csproj">
+      <Project>{1a4d8362-5a36-4d87-b21e-d562132930c8}</Project>
+      <Name>JSONProcessing.Models</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

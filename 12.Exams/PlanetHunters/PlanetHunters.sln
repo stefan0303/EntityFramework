@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlanetHunters.Import", "PlanetHunters.Import\PlanetHunters.Import.csproj", "{B1764398-E1A2-4408-83D7-87229082B644}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlanetHunters.Models", "PlanetHunters.Models\PlanetHunters.Models.csproj", "{1820C26E-821E-48FE-93B9-2CD80908BD81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlanetHunters.Data", "PlanetHunters.Data\PlanetHunters.Data.csproj", "{E0553011-E658-4FC0-A445-C7EA89E405BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlanetHunters.Export", "PlanetHunters.Export\PlanetHunters.Export.csproj", "{49A06057-B618-427F-A7BD-56018632D75D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B1764398-E1A2-4408-83D7-87229082B644}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1764398-E1A2-4408-83D7-87229082B644}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1764398-E1A2-4408-83D7-87229082B644}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1764398-E1A2-4408-83D7-87229082B644}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1820C26E-821E-48FE-93B9-2CD80908BD81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1820C26E-821E-48FE-93B9-2CD80908BD81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1820C26E-821E-48FE-93B9-2CD80908BD81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1820C26E-821E-48FE-93B9-2CD80908BD81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0553011-E658-4FC0-A445-C7EA89E405BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0553011-E658-4FC0-A445-C7EA89E405BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0553011-E658-4FC0-A445-C7EA89E405BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0553011-E658-4FC0-A445-C7EA89E405BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49A06057-B618-427F-A7BD-56018632D75D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49A06057-B618-427F-A7BD-56018632D75D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49A06057-B618-427F-A7BD-56018632D75D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49A06057-B618-427F-A7BD-56018632D75D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

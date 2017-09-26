@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSONProcessing.Data.ProductsShop", "JSONProcessing.Data\JSONProcessing.Data.ProductsShop.csproj", "{D3428804-71DC-480A-A919-DA6F9C0691F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSONProcessing.Models", "JSONProcessing.Models\JSONProcessing.Models.csproj", "{1A4D8362-5A36-4D87-B21E-D562132930C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSONProcessing.Services", "JSONProcessing.Services\JSONProcessing.Services.csproj", "{A4B417B8-F76F-4AAB-886A-3AB9862EAEF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSONProcessing", "JSONProcessing\JSONProcessing.csproj", "{0D187B53-8385-4CCD-A2AE-076B0533586F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSONProcessing.Data.CarDealer", "JSONProcessing.Data.CarDealer\JSONProcessing.Data.CarDealer.csproj", "{BE38C87D-BF04-4242-8A30-3B8FF7B6F133}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSONProcessing.Common", "JSONProcessing.Common\JSONProcessing.Common.csproj", "{32FDE00B-93D5-4242-A3D4-DE1301B5D0F2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D3428804-71DC-480A-A919-DA6F9C0691F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3428804-71DC-480A-A919-DA6F9C0691F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3428804-71DC-480A-A919-DA6F9C0691F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3428804-71DC-480A-A919-DA6F9C0691F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A4D8362-5A36-4D87-B21E-D562132930C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A4D8362-5A36-4D87-B21E-D562132930C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A4D8362-5A36-4D87-B21E-D562132930C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A4D8362-5A36-4D87-B21E-D562132930C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4B417B8-F76F-4AAB-886A-3AB9862EAEF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4B417B8-F76F-4AAB-886A-3AB9862EAEF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4B417B8-F76F-4AAB-886A-3AB9862EAEF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4B417B8-F76F-4AAB-886A-3AB9862EAEF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D187B53-8385-4CCD-A2AE-076B0533586F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D187B53-8385-4CCD-A2AE-076B0533586F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D187B53-8385-4CCD-A2AE-076B0533586F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D187B53-8385-4CCD-A2AE-076B0533586F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE38C87D-BF04-4242-8A30-3B8FF7B6F133}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE38C87D-BF04-4242-8A30-3B8FF7B6F133}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE38C87D-BF04-4242-8A30-3B8FF7B6F133}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE38C87D-BF04-4242-8A30-3B8FF7B6F133}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32FDE00B-93D5-4242-A3D4-DE1301B5D0F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32FDE00B-93D5-4242-A3D4-DE1301B5D0F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32FDE00B-93D5-4242-A3D4-DE1301B5D0F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32FDE00B-93D5-4242-A3D4-DE1301B5D0F2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
